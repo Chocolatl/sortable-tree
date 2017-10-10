@@ -1,0 +1,24 @@
+.tree-dir {
+    padding-left: 2rem;
+}
+
+.tree-file {
+    padding-left: 2rem;
+}
+
+.tree-dir > .tree-element ~ * {
+    display: none;
+}
+
+.tree-dir.expanded > .tree-element ~ * {
+    display: block;
+}
+
+.tree-element {
+    cursor: pointer;
+    line-height: 40px;
+}
+
+.tree-element:hover {
+    background: #66ccff;
+}

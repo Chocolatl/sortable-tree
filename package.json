@@ -1,0 +1,15 @@
+{
+  "name": "sortable-tree",
+  "version": "1.0.0",
+  "main": "sortable-tree.js",
+  "scripts": {
+    "build": "babel src/sortable-tree.js --out-file dest/sortable-tree.js"
+  },
+  "author": "Chocolatl",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1"
+  }
+}
